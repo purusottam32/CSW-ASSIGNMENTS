@@ -1,0 +1,17 @@
+/* Styles for body */
+body {
+    background-color: #f0f8ff;
+}
+
+/* Styles for h5 */
+.heading5 {
+    color: green;
+    font-size: 25px;
+    font-style: italic;
+}
+
+/* Styles for paragraphs */
+.styled-paragraph {
+    color: #333333;
+    font-size: 18px;
+}

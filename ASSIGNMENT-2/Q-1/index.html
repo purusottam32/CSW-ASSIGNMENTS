@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Page</title>
+    
+    <!-- Internal Style for h3 and h4 using IDs -->
+    <style>
+        #heading3 {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        #heading4 {
+            text-align: right;
+            font-weight: normal;
+        }
+    </style>
+
+    <!-- Linking External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Inline Styles for h1 and h2 -->
+    <h1 style="color: red; font-size: 40px;">This is an H1 Heading</h1>
+    <h2 style="color: blue; font-size: 30px;">This is an H2 Heading</h2>
+
+    <!-- Internal Styles using ID attribute -->
+    <h3 id="heading3">This is an H3 Heading</h3>
+    <h4 id="heading4">This is an H4 Heading</h4>
+
+    <!-- External Styles applied to h5 and paragraphs using class attribute -->
+    <h5 class="heading5">This is an H5 Heading</h5>
+    <p class="styled-paragraph">This is a sample paragraph styled using an external stylesheet. The text color and font size are defined in the stylesheet.</p>
+    <p class="styled-paragraph">Another example of a styled paragraph using the same class from the external stylesheet.</p>
+</body>
+</html>
