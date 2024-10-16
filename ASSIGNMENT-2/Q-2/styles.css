@@ -1,0 +1,37 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+
+}
+
+/* Styling the product row to align items horizontally */
+.product-row {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+/* Product container styling with CSS box model */
+.product-container {
+    width: 400px;  /* Content width */
+    padding: 20px; /* Padding */
+    border: 10px solid #ccc; /* Border */
+    margin: 15px;  /* Margin */
+    background-color: #fff;
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    text-align: center;
+}
+
+/* Styling the product image */
+.product-image {
+    width: 100%;  /* Image takes up full width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Styling the product description */
+.product-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
