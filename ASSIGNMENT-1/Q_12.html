@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage with Special Attributes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        p {
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin: 10px 0;
+        }
+        p:focus {
+            outline: 3px solid #2980b9;
+        }
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Webpage with tabindex, accesskey, draggable, and contenteditable</h1>
+
+    <!-- Paragraphs with tabindex -->
+    <p tabindex="2">This is the first paragraph, but it has a tabindex of 2.</p>
+    <p tabindex="1">This is the second paragraph, but it has a tabindex of 1, so it will be focused first when you press the Tab key.</p>
+    <p tabindex="4">This is the third paragraph with a tabindex of 4.</p>
+    <p tabindex="3">This is the fourth paragraph with a tabindex of 3.</p>
+    <p tabindex="5" contenteditable="true" draggable="true">This is the fifth paragraph. It is <strong>editable</strong> and <strong>draggable</strong>.</p>
+
+    <!-- Link with accesskey attribute -->
+    <p>Press Alt + M (or Option + M on Mac) to access the link:</p>
+    <a href="https://www.example.com" target="_blank" accesskey="m">Go to Example Website</a>
+
+</body>
+</html>
