@@ -1,0 +1,10 @@
+.contain{
+    width: 300px;
+    height: 200px;
+    background-image: url('originalimage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.contain:hover{
+    background-image: url('hoverimage.jpg');
+}
