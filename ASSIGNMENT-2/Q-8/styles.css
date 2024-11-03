@@ -1,0 +1,64 @@
+/* Basic body styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Sticky Navigation Bar */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #575757; /* Change color on hover */
+}
+
+/* Repeating Background Image Section */
+.repeating-image-section {
+    background-image: url('soa.png'); /* Replace with actual image path */
+    background-repeat: repeat-x; /* Repeat horizontally */
+    background-size: auto 100px; /* Set fixed height for the background image */
+    padding: 50px 20px;
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for the Image with Border and Outline */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.styled-image {
+    width: 300px;
+    height: auto;
+    border: 5px solid #4CAF50; /* Green solid border */
+    outline: 8px dashed #FF5722; /* Red dashed outline */
+    outline-offset: 5px; /* Space between border and outline */
+    border-radius: 50%; /* Makes the image circular */
+}
+
+/* Styled Text for Scroll Effect */
+.text-content {
+    padding: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #444;
+    height: 1200px; /* Add height for scroll effect */
+}
