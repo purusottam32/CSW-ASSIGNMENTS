@@ -1,0 +1,39 @@
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #FFFFC5;
+	min-width: 200px;
+	
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+/* Styling for each option */
+.option-1 {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.option-2 {
+    font-style: italic;
+    color: green;
+    font-size: 16px;
+}
+
+.option-3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: blue;
+}
+
+.option-4 {
+    text-decoration: underline;
+    color: purple;
+    font-size: 18px;
+}
