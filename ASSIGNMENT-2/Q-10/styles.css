@@ -1,0 +1,98 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the registration container */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+}
+
+/* Registration container styling */
+.registration-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* SOA Logo */
+.soa-logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+/* Form title styling */
+.registration-form h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Label styling */
+.registration-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #544d4d;
+    text-align: left;
+}
+
+/* Input field styling */
+.registration-form input[type="text"],
+.registration-form input[type="email"],
+.registration-form input[type="password"],
+.registration-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+
+
+/* Radio button group styling */
+.radio-group {
+    margin-bottom: 15px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    color: #666;
+}
+
+/* Dropdown styling */
+.registration-form select {
+    appearance: none;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Submit button styling */
+.registration-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.registration-form button:hover {
+    background-color: #45a049;
+}
